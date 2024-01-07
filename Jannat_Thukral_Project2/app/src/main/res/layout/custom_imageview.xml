@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="?android:attr/actionBarSize"
+    android:id="@+id/layout">
+    <ImageView
+        android:id="@+id/actionLogo"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cosmetica_logo_white" />
+    <ImageView
+        android:id="@+id/fab_cart"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/bag" />
+</RelativeLayout>

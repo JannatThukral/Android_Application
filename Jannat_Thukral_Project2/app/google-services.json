@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "547040133754",
+    "project_id": "cosmetica-c7a29",
+    "storage_bucket": "cosmetica-c7a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547040133754:android:4e17404e7a2f92e2af31c3",
+        "android_client_info": {
+          "package_name": "com.jannat.cosmetica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547040133754-9c82feeap0n21m0ebthbm32dhhq8e09i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jannat.cosmetica",
+            "certificate_hash": "024a254a7051cc0e2c903e257e2214cbe1b916c1"
+          }
+        },
+        {
+          "client_id": "547040133754-iot38e8lrej9fmn4qbbp2jhmipuja77h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEoMlkJ42FIsChHGW-SWm51OrIy3yuNCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547040133754-iot38e8lrej9fmn4qbbp2jhmipuja77h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

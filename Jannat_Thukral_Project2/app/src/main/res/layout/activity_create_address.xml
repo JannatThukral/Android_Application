@@ -1,0 +1,170 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/addForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/label_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="FULL NAME"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/inp_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/label_full_name"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black" />
+
+        <TextView
+            android:id="@+id/label_address"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/inp_full_name"
+            android:text="ADDRESS"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/inp_address"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/label_address"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black" />
+
+        <TextView
+            android:id="@+id/label_city_town"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/inp_address"
+            android:text="CITY/TOWN"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/inp_city_town"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/label_city_town"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black" />
+
+        <LinearLayout
+            android:layout_below="@id/inp_city_town"
+            android:id="@+id/tri_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <TextView
+                    android:layout_weight="0.33"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="COUNTRY"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/label_state_spin"
+                    android:layout_weight="0.33"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="STATE"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_weight="0.33"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="PIN CODE"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <Spinner
+                    android:id="@+id/country_spin"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.33"
+                    android:layout_width="0dp"
+                    android:backgroundTint="@color/black" />
+                <Spinner
+                    android:id="@+id/state_spin"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.33"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/black" />
+                <EditText
+                    android:id="@+id/inp_zip"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.33"
+                    android:layout_height="48dp"
+                    android:backgroundTint="@color/black"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label_phone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/tri_holder"
+            android:layout_marginTop="10dp"
+            android:text="PHONE NUMBER"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/inp_phone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/label_phone"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <TextView
+            android:id="@+id/label_add_email"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/inp_phone"
+            android:text="EMAIL"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/inp_add_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/label_add_email"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
+            android:inputType="textEmailAddress" />
+
+        <ProgressBar
+            android:id="@+id/pgB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inp_add_email"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:indeterminateTint="@color/black"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/addSave"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/pgB"
+            android:text="SAVE &amp; CONTINUE " />
+    </RelativeLayout>
+</ScrollView>

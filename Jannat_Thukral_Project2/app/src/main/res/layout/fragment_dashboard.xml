@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="70dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/et_borders"
+            android:hint="Search"
+            android:textAlignment="center"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width ="match_parent"
+            android:text="Offers for You"
+            android:textStyle = "bold"
+            android:textColor = "@color/cos_pink"
+            android:gravity="center"
+            android:textSize="35dp"
+            />
+
+        <ImageView
+            android:id="@+id/frame_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/frame" />
+
+        <ImageView
+            android:id="@+id/frame_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/coupen" />
+
+        <ImageView
+            android:id="@+id/frame_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/coupen2" />
+
+    </LinearLayout>
+</ScrollView>

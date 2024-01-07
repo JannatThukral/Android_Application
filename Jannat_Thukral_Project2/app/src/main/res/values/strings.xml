@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cosmetica</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="country_array">
+        <item>Canada</item>
+    </string-array>
+    <string-array name="state_array">
+        <item>Toronto</item>
+        <item>Surrey</item>
+        <item>Ontario</item>
+    </string-array>
+
+    <string-array name="sizes_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="title_activity_list_products">List Products</string>
+    <string name="title_activity_list_address">List Address</string>
+    <string name="topselling_products">Topselling Products</string>
+</resources>

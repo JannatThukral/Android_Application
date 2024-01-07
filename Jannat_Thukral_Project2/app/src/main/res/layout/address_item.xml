@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/address_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:text="First Last"
+            android:textColor="@color/white"
+            android:background="@color/cos_pink_tint"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/address_line"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:text="23rd 5th Street"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/address_city_pin_state"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:text="Kriskardee Drive , ON , CA"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            />
+        <TextView
+            android:id="@+id/address_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="99999 9999"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            />
+        <Button
+            android:id="@+id/remove_address"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/cos_pink_tint"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="48dp"
+            android:text="Remove from List"
+            android:drawableLeft="@drawable/ic_baseline_delete_forever_24"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
